@@ -132,7 +132,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor pi_temp"
           ],
-          "timestamp": "2026-03-27T11:07:38Z"
+          "timestamp": "2026-03-27T11:07:55Z"
         },
         "optional": []
       },
@@ -472,7 +472,7 @@
         "hotend": "extruder"
       },
       "type": "Voron 2.4",
-      "wizard_completed": false
+      "wizard_completed": true
     },
     "show_printer_switcher": false
   },
@@ -489,5 +489,5 @@
   "update": {
     "dismissed_version": "0.98.9"
   },
-  "wizard_completed": false
+  "wizard_completed": true
 }
