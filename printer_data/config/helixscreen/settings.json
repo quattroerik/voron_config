@@ -222,7 +222,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 7,
+                  "col": 5,
                   "colspan": 1,
                   "enabled": false,
                   "id": "firmware_restart",
