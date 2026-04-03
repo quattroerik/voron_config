@@ -41,27 +41,27 @@
     "entries": [
       {
         "phases": {
-          "3": 40
-        },
-        "temp_bucket": 150,
-        "timestamp": 1775142841,
-        "total": 40
-      },
-      {
-        "phases": {
-          "3": 140
-        },
-        "temp_bucket": 150,
-        "timestamp": 1775155661,
-        "total": 140
-      },
-      {
-        "phases": {
           "4": 40
         },
         "temp_bucket": 150,
         "timestamp": 1775197609,
         "total": 40
+      },
+      {
+        "phases": {
+          "3": 165
+        },
+        "temp_bucket": 150,
+        "timestamp": 1775209451,
+        "total": 165
+      },
+      {
+        "phases": {
+          "4": 45
+        },
+        "temp_bucket": 150,
+        "timestamp": 1775223487,
+        "total": 45
       }
     ]
   },
@@ -142,7 +142,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor pi_temp"
           ],
-          "timestamp": "2026-04-03T09:40:49Z"
+          "timestamp": "2026-04-03T14:46:11Z"
         },
         "optional": []
       },
