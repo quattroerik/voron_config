@@ -118,6 +118,7 @@
           "fans": [
             "heater_fan hotend_fan",
             "fan",
+            "fan_generic rox",
             "fan_generic nevermore_fan",
             "fan_generic electronics"
           ],
@@ -138,7 +139,7 @@
             "temperature_sensor cartographer",
             "temperature_sensor pi_temp"
           ],
-          "timestamp": "2026-04-11T15:59:22Z"
+          "timestamp": "2026-04-22T10:45:20Z"
         },
         "optional": []
       },
@@ -159,6 +160,7 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
@@ -477,6 +479,9 @@
         }
       },
       "printer_name": "1524",
+      "probe_sensors": {
+        "sensors": null
+      },
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
