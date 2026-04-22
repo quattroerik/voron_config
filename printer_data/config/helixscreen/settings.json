@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 10,
+  "config_version": 13,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -41,7 +41,6 @@
     "entries": [
       {
         "phases": {
-          "3": 34,
           "7": 5
         },
         "temp_bucket": 150,
@@ -49,17 +48,13 @@
         "total": 39
       },
       {
-        "phases": {
-          "4": 40
-        },
+        "phases": {},
         "temp_bucket": 150,
         "timestamp": 1775283937,
         "total": 40
       },
       {
-        "phases": {
-          "3": 230
-        },
+        "phases": {},
         "temp_bucket": 150,
         "timestamp": 1775290528,
         "total": 230
