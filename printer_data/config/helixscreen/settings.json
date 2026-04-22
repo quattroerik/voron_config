@@ -147,11 +147,13 @@
           "sensors": [
             "temperature_sensor cartographer_coil",
             "temperature_sensor chamber",
-            "temperature_sensor EBB36",
-            "temperature_sensor cartographer",
-            "temperature_sensor pi_temp"
+            "temperature_sensor toolhead",
+            "temperature_sensor carto",
+            "temperature_sensor raspi",
+            "temperature_sensor mmu0",
+            "temperature_sensor mmu1"
           ],
-          "timestamp": "2026-04-22T20:49:02Z"
+          "timestamp": "2026-04-22T20:53:11Z"
         },
         "optional": []
       },
