@@ -139,9 +139,3 @@ path: ~/klipper-backup
 origin: https://github.com/Staubgeborener/klipper-backup.git
 managed_services: moonraker
 primary_branch: main
-[update_manager goose_purge]
-type: git_repo
-primary_branch: main
-path: ~/goose_purge_macro
-origin: https://github.com/Graylag-PD/Goose-Purge-Macro.git
-managed_services: klipper
