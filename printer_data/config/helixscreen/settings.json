@@ -223,8 +223,8 @@
         ],
         "last_snapshot": {
           "fans": [
-            "fan_generic _emu_fan_0",
-            "fan_generic _emu_fan_1",
+            "fan_generic _unit0_fan0",
+            "fan_generic _unit0_fan1",
             "heater_fan hotend_fan",
             "fan",
             "fan_generic rox",
@@ -232,27 +232,27 @@
             "fan_generic electronics"
           ],
           "filament_sensors": [
-            "filament_switch_sensor mmu_pre_gate_0",
-            "filament_switch_sensor mmu_pre_gate_1",
-            "filament_switch_sensor mmu_gear_0",
-            "filament_switch_sensor mmu_gear_1",
-            "filament_switch_sensor extruder_sensor",
-            "filament_switch_sensor toolhead_sensor"
+            "filament_switch_sensor default:extruder",
+            "filament_switch_sensor default:toolhead",
+            "filament_switch_sensor mmu_entry_0",
+            "filament_switch_sensor mmu_entry_1",
+            "filament_switch_sensor mmu_exit_0",
+            "filament_switch_sensor mmu_exit_1",
+            "filament_switch_sensor unit0:filament_compression",
+            "filament_switch_sensor unit0:filament_tension"
           ],
           "heaters": [
             "heater_bed",
             "extruder"
           ],
           "leds": [
-            "neopixel _mmu0_leds",
-            "neopixel _mmu1_leds",
+            "neopixel _unit0_gate0_leds",
+            "neopixel _unit0_gate1_leds",
             "neopixel sb_leds"
           ],
           "sensors": [
-            "temperature_sensor Lane_0",
-            "temperature_sensor Lane_1",
-            "temperature_sensor _Lane_0_onboard",
-            "temperature_sensor _Lane_1_onboard",
+            "temperature_sensor unit0_mcu0",
+            "temperature_sensor unit0_mcu1",
             "temperature_sensor cartographer_coil",
             "temperature_sensor chamber",
             "temperature_sensor toolhead",
@@ -261,7 +261,7 @@
             "temperature_sensor psu",
             "temperature_sensor amb_electronics"
           ],
-          "timestamp": "2026-09-18T11:11:50Z"
+          "timestamp": "2026-10-15T14:43:59Z"
         },
         "optional": []
       },
@@ -270,6 +270,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "SET_NOZZLE_LEDS"
+        ],
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -282,8 +285,18 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": 0.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel sb_leds"
