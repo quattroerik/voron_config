@@ -232,14 +232,14 @@
             "fan_generic electronics"
           ],
           "filament_sensors": [
-            "filament_switch_sensor default:extruder",
-            "filament_switch_sensor default:toolhead",
+            "filament_switch_sensor extruder",
+            "filament_switch_sensor toolhead",
             "filament_switch_sensor mmu_entry_0",
             "filament_switch_sensor mmu_entry_1",
             "filament_switch_sensor mmu_exit_0",
             "filament_switch_sensor mmu_exit_1",
-            "filament_switch_sensor unit0:filament_compression",
-            "filament_switch_sensor unit0:filament_tension"
+            "filament_switch_sensor filament_compression",
+            "filament_switch_sensor filament_tension"
           ],
           "heaters": [
             "heater_bed",
@@ -261,7 +261,7 @@
             "temperature_sensor psu",
             "temperature_sensor amb_electronics"
           ],
-          "timestamp": "2026-10-15T14:44:56Z"
+          "timestamp": "2026-10-15T15:21:29Z"
         },
         "optional": []
       },
