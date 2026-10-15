@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 21,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
