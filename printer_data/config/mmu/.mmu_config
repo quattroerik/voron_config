@@ -847,7 +847,7 @@ CONFIG_PARAM_EXTRUDER_HOMING_ENDSTOP="filament_compression" #~DEFAULT~#
 CONFIG_PARAM_EXTRUDER_COLLISION_HOMING_CURRENT=30 #~DEFAULT~#
 #     _
 #     _Toolhead sensor homing
-CONFIG_PARAM_TOOLHEAD_HOMING_MAX=45
+CONFIG_PARAM_TOOLHEAD_HOMING_MAX=50
 #   end of Endstops and Bowden movement
 #   Filament preloading and ejection
 # CONFIG_CHOICE_GATE_PRELOAD_ENDSTOP_DEFAULT is not set #~DEFAULT~#
