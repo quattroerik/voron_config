@@ -1,14 +1,9 @@
 .env
 secrets.conf
-*.zip
 *.swp
-*.old*
 *.tmp
-mmu.old-*
 printer-[0-9]*_[0-9]*.cfg
-mmu.V3
 *.bak
-ShakeTune_results
 *.bkp
 *.csv
 *.zip
