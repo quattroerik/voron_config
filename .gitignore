@@ -1,9 +1,7 @@
 .env
-secrets.confmmu.old-*
+secrets.conf
 *.swp
-mmu.V3
 *.tmp
-ShakeTune_results
 printer-[0-9]*_[0-9]*.cfg
 *.bak
 *.bkp
