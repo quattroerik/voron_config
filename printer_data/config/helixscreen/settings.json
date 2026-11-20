@@ -87,16 +87,6 @@
       },
       {
         "phases": {
-          "2": 46,
-          "7": 83
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792319205,
-        "total": 265,
-        "window": 1
-      },
-      {
-        "phases": {
           "7": 156
         },
         "temp_bucket": 2,
@@ -180,6 +170,15 @@
         "timestamp": 1795172440,
         "total": 162,
         "window": 1
+      },
+      {
+        "phases": {
+          "7": 77
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795175385,
+        "total": 145,
+        "window": 1
       }
     ]
   },
@@ -222,7 +221,7 @@
           "nozzle_temp_max": 245,
           "nozzle_temp_min": 245,
           "product_name": "",
-          "remaining_weight_g": 448.30731201171875,
+          "remaining_weight_g": 446.3105773925781,
           "spool_name": "Diamond Blue",
           "spoolman_id": 2,
           "total_weight_g": 1000.0
@@ -671,7 +670,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.28269651532173157
+        "heat_rate": 0.2660392224788666
       },
       "heater_bed": {
         "heat_rate": 4.4675750732421875
