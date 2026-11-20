@@ -41,6 +41,52 @@
     "entries": [
       {
         "phases": {
+          "7": 58
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777307690,
+        "total": 183
+      },
+      {
+        "phases": {
+          "2": 9,
+          "7": 67,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1785581162,
+        "total": 235
+      },
+      {
+        "phases": {
+          "7": 79,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1786723922,
+        "total": 237
+      },
+      {
+        "phases": {
+          "7": 122,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1787330717,
+        "total": 271
+      },
+      {
+        "phases": {
+          "2": 114,
+          "7": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1792770043,
+        "total": 331,
+        "window": 1
+      },
+      {
+        "phases": {
           "2": 46,
           "7": 83
         },
@@ -128,56 +174,11 @@
       },
       {
         "phases": {
-          "7": 64
+          "7": 89
         },
-        "temp_bucket": 1,
-        "timestamp": 1777301254,
-        "total": 209
-      },
-      {
-        "phases": {
-          "7": 58
-        },
-        "temp_bucket": 1,
-        "timestamp": 1777307690,
-        "total": 183
-      },
-      {
-        "phases": {
-          "2": 9,
-          "7": 67,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1785581162,
-        "total": 235
-      },
-      {
-        "phases": {
-          "7": 79,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1786723922,
-        "total": 237
-      },
-      {
-        "phases": {
-          "7": 122,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1787330717,
-        "total": 271
-      },
-      {
-        "phases": {
-          "2": 114,
-          "7": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792770043,
-        "total": 331,
+        "temp_bucket": 2,
+        "timestamp": 1795172440,
+        "total": 162,
         "window": 1
       }
     ]
@@ -221,7 +222,7 @@
           "nozzle_temp_max": 245,
           "nozzle_temp_min": 245,
           "product_name": "",
-          "remaining_weight_g": 450.0899658203125,
+          "remaining_weight_g": 449.802490234375,
           "spool_name": "Diamond Blue",
           "spoolman_id": 2,
           "total_weight_g": 1000.0
@@ -670,10 +671,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3990989029407501
+        "heat_rate": 0.28269651532173157
       },
       "heater_bed": {
-        "heat_rate": 3.2210512161254883
+        "heat_rate": 4.4675750732421875
       }
     }
   },
