@@ -222,7 +222,7 @@
           "nozzle_temp_max": 245,
           "nozzle_temp_min": 245,
           "product_name": "",
-          "remaining_weight_g": 448.3135070800781,
+          "remaining_weight_g": 448.30731201171875,
           "spool_name": "Diamond Blue",
           "spoolman_id": 2,
           "total_weight_g": 1000.0
@@ -302,7 +302,7 @@
             "temperature_sensor psu",
             "temperature_sensor amb_electronics"
           ],
-          "timestamp": "2026-11-20T10:19:44Z"
+          "timestamp": "2026-11-20T11:35:44Z"
         },
         "optional": []
       },
