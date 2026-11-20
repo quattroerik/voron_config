@@ -16,8 +16,8 @@ printer-[0-9]*_[0-9]*.cfg
 *.zip
 *.zip
 *.old*
-mmu.old-*
 *.old*
+mmu.old-*
 mmu.old-*
 mmu.V3
 ShakeTune_results
