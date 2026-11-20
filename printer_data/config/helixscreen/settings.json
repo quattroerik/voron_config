@@ -210,6 +210,23 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 100,
+          "brand": "Overture",
+          "catalog_id": "",
+          "color_rgb": 3294341,
+          "material": "ASA",
+          "nozzle_temp_max": 245,
+          "nozzle_temp_min": 245,
+          "product_name": "",
+          "remaining_weight_g": 450.0899658203125,
+          "spool_name": "Diamond Blue",
+          "spoolman_id": 2,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
