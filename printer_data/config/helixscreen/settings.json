@@ -234,6 +234,8 @@
           "fans": [
             "fan_generic _unit0_fan0",
             "fan_generic _unit0_fan1",
+            "fan_generic _unit0_fan2",
+            "fan_generic _unit0_fan3",
             "heater_fan hotend_fan",
             "fan",
             "fan_generic rox",
@@ -245,8 +247,12 @@
             "filament_switch_sensor toolhead",
             "filament_switch_sensor mmu_entry_0",
             "filament_switch_sensor mmu_entry_1",
+            "filament_switch_sensor mmu_entry_2",
+            "filament_switch_sensor mmu_entry_3",
             "filament_switch_sensor mmu_exit_0",
             "filament_switch_sensor mmu_exit_1",
+            "filament_switch_sensor mmu_exit_2",
+            "filament_switch_sensor mmu_exit_3",
             "filament_switch_sensor filament_compression",
             "filament_switch_sensor filament_tension"
           ],
@@ -257,11 +263,19 @@
           "leds": [
             "neopixel _unit0_gate0_leds",
             "neopixel _unit0_gate1_leds",
+            "neopixel _unit0_gate2_leds",
+            "neopixel _unit0_gate3_leds",
             "neopixel sb_leds"
           ],
           "sensors": [
+            "temperature_sensor unit0_Env0",
+            "temperature_sensor unit0_Env1",
+            "temperature_sensor unit0_Env2",
+            "temperature_sensor unit0_Env3",
             "temperature_sensor unit0_mcu0",
             "temperature_sensor unit0_mcu1",
+            "temperature_sensor unit0_mcu2",
+            "temperature_sensor unit0_mcu3",
             "temperature_sensor cartographer_coil",
             "temperature_sensor chamber",
             "temperature_sensor toolhead",
@@ -270,7 +284,7 @@
             "temperature_sensor psu",
             "temperature_sensor amb_electronics"
           ],
-          "timestamp": "2026-10-25T18:13:52Z"
+          "timestamp": "2026-11-20T10:03:38Z"
         },
         "optional": []
       },
