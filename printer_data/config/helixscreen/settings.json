@@ -87,16 +87,6 @@
       },
       {
         "phases": {
-          "2": 127,
-          "7": 146
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792341169,
-        "total": 279,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 126,
           "7": 131
         },
@@ -179,6 +169,15 @@
         "timestamp": 1795185646,
         "total": 185,
         "window": 1
+      },
+      {
+        "phases": {
+          "7": 13
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795199020,
+        "total": 130,
+        "window": 1
       }
     ]
   },
@@ -210,23 +209,7 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 100,
-          "brand": "Overture",
-          "catalog_id": "",
-          "color_rgb": 3294341,
-          "material": "ASA",
-          "nozzle_temp_max": 245,
-          "nozzle_temp_min": 245,
-          "product_name": "",
-          "remaining_weight_g": 442.1567687988281,
-          "spool_name": "Diamond Blue",
-          "spoolman_id": 2,
-          "total_weight_g": 1000.0
-        }
-      },
+      "filament": {},
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
@@ -670,7 +653,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.26040542125701904
+        "heat_rate": 0.2669423818588257
       },
       "heater_bed": {
         "heat_rate": 4.045938014984131
