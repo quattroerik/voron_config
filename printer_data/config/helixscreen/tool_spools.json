@@ -1,18 +1,5 @@
 {
   "printers": {
-    "default": {
-      "0": {
-        "spool_name": "",
-        "spoolman_id": 11
-      },
-      "1": {
-        "spool_name": "",
-        "spoolman_id": 17
-      },
-      "2": {
-        "spool_name": "",
-        "spoolman_id": 12
-      }
-    }
+    "default": {}
   }
 }
