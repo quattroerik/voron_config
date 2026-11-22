@@ -35,7 +35,7 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 0
   },
   "print_start_history": {
     "entries": [
