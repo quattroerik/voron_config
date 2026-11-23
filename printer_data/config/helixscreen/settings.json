@@ -8,7 +8,7 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 0,
-    "gpu_3d_blocked": false,
+    "gpu_3d_blocked": true,
     "gpu_blur_blocked": false,
     "sleep_sec": 600
   },
