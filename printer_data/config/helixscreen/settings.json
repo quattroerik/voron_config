@@ -9,7 +9,7 @@
     "drm_device": "",
     "gcode_preview_rate": {
       "board": "unknown/4c/100bm/1024x600/32bpp",
-      "rate": 46.34009720756262,
+      "rate": 36.92770253495483,
       "version": "1.1.0 (e82a1bb)"
     },
     "gcode_render_mode": 0,
