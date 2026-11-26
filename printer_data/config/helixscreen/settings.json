@@ -8,6 +8,12 @@
     "dim_sec": 300,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "glass_probe": {
+      "board": "egl/4c/100bm/1024x600/32bpp",
+      "frame_ms": 9.319,
+      "passed": false,
+      "version": "1.1.0 (e82a1bb)"
+    },
     "gpu_3d_blocked": true,
     "gpu_blur_blocked": false,
     "sleep_sec": 600
