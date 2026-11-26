@@ -7,7 +7,7 @@ printer-[0-9]*_[0-9]*.cfg
 *.bkp
 *.csv
 *.zip
-*.old*
+helixscreen.old
 mmu.old-*
 mmu.V3
 ShakeTune_results
