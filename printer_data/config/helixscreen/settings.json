@@ -7,6 +7,11 @@
     "dim_brightness": 30,
     "dim_sec": 300,
     "drm_device": "",
+    "gcode_preview_rate": {
+      "board": "unknown/4c/100bm/1024x600/32bpp",
+      "rate": 46.34009720756262,
+      "version": "1.1.0 (e82a1bb)"
+    },
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "egl/4c/100bm/1024x600/32bpp",
@@ -196,7 +201,7 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA_1h24m.gcode\",\"job_id\":\"000222\",\"object_height\":62.0,\"start_time\":1795712291.1428232}",
+        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA_1h24m.gcode\",\"job_id\":\"000223\",\"object_height\":62.0,\"start_time\":1795718085.9843826}",
         "outlines": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA_1h24m.gcode\",\"objects\":[[[119.1,118.1],[179.3,118.1],[179.3,178.3],[119.1,178.3]]]}"
       },
       "default_macros": {
@@ -360,20 +365,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 2.8591666666670195
+            "used_h": 3.6511111111114714
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 2.8591666666670195
+            "used_h": 3.6511111111114714
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 2.8591666666670195
+            "used_h": 3.6511111111114714
           }
         },
-        "total_h": 2.8591666666670195
+        "total_h": 3.6511111111114714
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
