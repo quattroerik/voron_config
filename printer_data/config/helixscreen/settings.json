@@ -98,16 +98,6 @@
       },
       {
         "phases": {
-          "BED_MESH": 28,
-          "PURGING": 159
-        },
-        "temp_bucket": 2,
-        "timestamp": 1795466697,
-        "total": 290,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 8
         },
         "temp_bucket": 2,
@@ -210,6 +200,18 @@
         "temp_bucket": 2,
         "timestamp": 1795879331,
         "total": 826,
+        "window": 1
+      },
+      {
+        "heating": 94,
+        "phases": {
+          "BED_MESH": 16,
+          "PURGING": 407,
+          "QGL": 26
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795894738,
+        "total": 528,
         "window": 1
       }
     ]
@@ -381,20 +383,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 12.743611111097724
+            "used_h": 12.943611111097116
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 12.743611111097724
+            "used_h": 12.943611111097116
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 12.743611111097724
+            "used_h": 12.943611111097116
           }
         },
-        "total_h": 12.743611111097724
+        "total_h": 12.943611111097116
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -530,10 +532,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2449330985546112
+        "heat_rate": 0.23259630799293518
       },
       "heater_bed": {
-        "heat_rate": 3.5177791118621826
+        "heat_rate": 4.072495460510254
       }
     }
   },
