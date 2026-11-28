@@ -212,8 +212,8 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_ASA_1h29m.gcode\",\"job_id\":\"000226\",\"object_height\":82.0,\"start_time\":1795780626.859878}",
-        "outlines": "{\"filename\":\"Quirkle_Stone_Print_V1_ASA_1h29m.gcode\",\"objects\":[[[131.0,113.9],[179.4,113.9],[179.4,162.2],[131.0,162.2]]]}"
+        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_1h41m.gcode\",\"job_id\":\"000227\",\"object_height\":8.0,\"start_time\":1795870594.9810836}",
+        "outlines": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_1h41m.gcode\",\"objects\":[[[114.6,111.0],[114.7,110.5],[115.0,109.9],[115.5,109.6],[116.1,109.5],[213.1,109.5],[213.8,109.7],[214.3,110.2],[214.6,111.0],[214.6,173.0],[214.3,173.8],[213.7,174.4],[213.1,174.5],[116.1,174.5],[115.3,174.3],[114.7,173.7],[114.6,173.0],[114.6,111.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -376,20 +376,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 7.347500000000938
+            "used_h": 7.396111111112057
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 7.347500000000938
+            "used_h": 7.396111111112057
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 7.347500000000938
+            "used_h": 7.396111111112057
           }
         },
-        "total_h": 7.347500000000938
+        "total_h": 7.396111111112057
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
