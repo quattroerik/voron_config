@@ -9,7 +9,7 @@
     "drm_device": "",
     "gcode_preview_rate": {
       "board": "unknown/4c/100bm/1024x600/32bpp",
-      "rate": 36.92770253495483,
+      "rate": 41.49094373940787,
       "version": "1.1.0 (e82a1bb)"
     },
     "gcode_render_mode": 0,
@@ -217,8 +217,8 @@
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_1h45m.gcode\",\"job_id\":\"000228\",\"object_height\":8.0,\"start_time\":1795871180.8889866}",
-        "outlines": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_1h45m.gcode\",\"objects\":[[[114.6,111.0],[114.7,110.5],[115.0,109.9],[115.5,109.6],[116.1,109.5],[213.1,109.5],[213.8,109.7],[214.3,110.2],[214.6,111.0],[214.6,173.0],[214.3,173.8],[213.7,174.4],[213.1,174.5],[116.1,174.5],[115.3,174.3],[114.7,173.7],[114.6,173.0],[114.6,111.0]]]}"
+        "last_occupied": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_3h27m.gcode\",\"job_id\":\"000229\",\"object_height\":8.0,\"start_time\":1795878504.8604763}",
+        "outlines": "{\"filename\":\"Quirkle_Stone_Print_V1_PLA+_3h27m.gcode\",\"objects\":[[[118.6,68.9],[118.7,68.3],[119.1,67.8],[119.6,67.5],[120.1,67.4],[217.1,67.4],[217.9,67.6],[218.4,68.1],[218.6,68.9],[218.6,130.9],[218.4,131.7],[217.8,132.2],[217.1,132.4],[120.1,132.4],[119.3,132.1],[118.8,131.5],[118.6,130.9],[118.6,68.9]],[[118.1,144.2],[118.2,143.7],[118.6,143.1],[119.0,142.8],[119.6,142.7],[216.6,142.7],[217.4,142.9],[217.9,143.4],[218.1,144.2],[218.1,206.2],[217.9,207.0],[217.3,207.5],[216.6,207.7],[119.6,207.7],[118.8,207.5],[118.2,206.9],[118.1,206.2],[118.1,144.2]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -381,20 +381,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 9.50888888888534
+            "used_h": 12.743611111097724
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 9.50888888888534
+            "used_h": 12.743611111097724
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 9.50888888888534
+            "used_h": 12.743611111097724
           }
         },
-        "total_h": 9.50888888888534
+        "total_h": 12.743611111097724
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
